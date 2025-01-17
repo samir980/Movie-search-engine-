@@ -1,6 +1,7 @@
 import React from 'react';
 import { Movie } from '../../types/movie';
 import './MovieCard.css'
+import { Link } from 'react-router-dom';
 
 
 interface MovieCardProps {
@@ -24,7 +25,9 @@ const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
             <p className='card-text'>
               Rating: {movie.vote_average ? movie.vote_average : 'N/A'}/10
             </p>
-            <button className='btn btn-primary btn-sm'>See Details</button>
+            <Link to={`/movie/${movie.id}`} className='btn btn-primary btn-sm'>
+              See Details
+            </Link>
           </div>
       </div>
     </div>
