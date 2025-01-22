@@ -1,0 +1,20 @@
+.header {
+    background-color: #D3F0F4;
+
+}
+.btn-search {
+    background-color: #111155;
+    color : white
+}
+.btn-login, .btn-register {
+    color : #111155;
+}
+.btn-login:hover {
+    color: #111155;
+}
+.btn-register:hover {
+    color: #111155;
+}
+.navbar-brand {
+    color: #111155;
+}

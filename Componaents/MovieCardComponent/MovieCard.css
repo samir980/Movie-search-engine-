@@ -1,7 +1,26 @@
 .card {
     transition: all 1s;
     overflow : hidden;
+    border-radius : 10px;
+    border : solid white 10px
 }
 .card:hover { 
     transform : scale(1.05)
+}
+.movie-poster {
+    
+    border-radius : 10px
+}
+.card-title {
+    color : #111155;
+}
+
+.btn-details {
+    color : #fff;
+    background-color: #111155;
+
+}
+.card-text {
+    color : #959CA4;
+
 }
